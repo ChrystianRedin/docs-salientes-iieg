@@ -11,6 +11,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { SharedModule } from './shared/shared.module';
+import { PagesModule } from './pages/pages.module';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SharedModule } from './shared/shared.module';
     SharedModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+	PagesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

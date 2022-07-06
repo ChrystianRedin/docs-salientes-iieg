@@ -1,11 +1,16 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { DocumentsComponent } from './documents/documents.component';
+import { CrearDocumentoComponent } from './components/crear-documento/crear-documento.component';
+import { ListadoDocentrantesComponent } from './listado-docentrantes/listado-docentrantes.component';
 
 const routes: Routes = [
   {
-    path:'docs',
-    component:DocumentsComponent
+    path:'listado-entrantes',
+    component:ListadoDocentrantesComponent
+  },
+  {
+    path:'crear-documento',
+    component:CrearDocumentoComponent
   }
 ];
 
