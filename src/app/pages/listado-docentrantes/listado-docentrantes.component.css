@@ -1,0 +1,11 @@
+.action-icons {
+	font-size: 1.5em;
+	color: #146ebe;
+	cursor: pointer;
+}
+
+.action-icons:hover {
+	font-size: 1.5em;
+	color: #0b406d;
+	cursor: pointer;
+}
